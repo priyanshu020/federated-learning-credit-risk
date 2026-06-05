@@ -88,3 +88,16 @@ federated-learning-credit-risk/
 ├── requirements.txt
 └── .gitignore
 ```
+
+## Citation
+
+If you use this work in your research, please cite:
+
+```text
+Priyanshu Bhardwaj,
+"Performance Analysis of Federated Learning under Non-IID Financial Tabular Data Distributions",
+M.Tech Dissertation,
+University School of Information, Communication and Technology (USICT),
+Guru Gobind Singh Indraprastha University (GGSIPU),
+2026.
+```
