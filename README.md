@@ -17,3 +17,36 @@ The primary objectives of this study were:
 - To investigate the impact of label skew and quantity skew on Federated Learning.
 - To compare the performance of FedAvg and FedProx under heterogeneous data conditions.
 - To analyze the suitability of Federated Learning for privacy-preserving financial risk assessment.
+
+
+## Experimental Setup
+
+### Dataset
+
+- UCI Credit Card Default Dataset
+- 30,000 customer records
+- Binary classification task (Default / No Default)
+
+### Learning Approaches
+
+- Centralized Logistic Regression
+- Federated Averaging (FedAvg)
+- Federated Proximal Optimization (FedProx)
+
+### Experimental Scenarios
+
+| Scenario | Algorithm |
+|-----------|-----------|
+| Centralized Baseline | Logistic Regression |
+| IID Distribution | FedAvg |
+| Label Skew (70%) | FedAvg, FedProx |
+| Label Skew (90%) | FedAvg, FedProx |
+| Quantity Skew | FedAvg |
+
+### Evaluation Metrics
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Log Loss
