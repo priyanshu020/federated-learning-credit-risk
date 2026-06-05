@@ -73,3 +73,18 @@ The experimental analysis led to the following observations:
 | Label Skew (90%) - FedAvg | 64.38% |
 | Label Skew (90%) - FedProx | 64.78% |
 | Quantity Skew - FedAvg | 80.80% |
+
+## Repository Structure
+
+```text
+federated-learning-credit-risk/
+│
+├── code/                  # Python implementation
+├── dataset/               # UCI Credit Card Dataset
+├── figures/               # Experimental plots and flowcharts
+├── dissertation/          # Final M.Tech dissertation
+├── presentation/          # Final evaluation presentation
+├── README.md
+├── requirements.txt
+└── .gitignore
+```
