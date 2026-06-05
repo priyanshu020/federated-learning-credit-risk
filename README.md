@@ -50,3 +50,26 @@ The primary objectives of this study were:
 - Recall
 - F1-score
 - Log Loss
+
+## Key Findings
+
+The experimental analysis led to the following observations:
+
+- Federated Learning achieved performance close to centralized learning under IID client distributions.
+- Label skew introduced significant performance degradation due to statistical heterogeneity across clients.
+- Severe label skew (90%) resulted in the largest reduction in predictive performance.
+- Quantity skew had a comparatively smaller impact on model convergence and classification accuracy.
+- FedProx demonstrated greater robustness than FedAvg under highly heterogeneous client distributions.
+- The results highlight the importance of handling Non-IID data when deploying Federated Learning systems in financial environments.
+
+### Performance Summary
+
+| Scenario | Best Accuracy |
+|-----------|-----------|
+| Centralized Learning | 80.72% |
+| IID Federated Learning | 80.80% |
+| Label Skew (70%) - FedAvg | 66.93% |
+| Label Skew (70%) - FedProx | 67.02% |
+| Label Skew (90%) - FedAvg | 64.38% |
+| Label Skew (90%) - FedProx | 64.78% |
+| Quantity Skew - FedAvg | 80.80% |
