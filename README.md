@@ -101,3 +101,26 @@ University School of Information, Communication and Technology (USICT),
 Guru Gobind Singh Indraprastha University (GGSIPU),
 2026.
 ```
+
+## Author
+
+**Priyanshu Bhardwaj**
+
+M.Tech (Computer Science & Engineering)
+
+University School of Information, Communication and Technology (USICT)
+
+Guru Gobind Singh Indraprastha University (GGSIPU)
+
+### Research Interests
+
+- Federated Learning
+- Explainable AI (XAI)
+- Financial Risk Analytics
+- Privacy-Preserving Machine Learning
+- Healthcare AI
+
+### Contact
+
+GitHub: https://github.com/priyanshu020
+Email: priyanshub02031998@gmail.com
